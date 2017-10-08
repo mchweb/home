@@ -1,0 +1,56 @@
+/***************************************************
+COMMON STYLES
+***************************************************/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+	height:100%;
+	min-height:100%;
+}
+body{
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+	cursor:pointer;
+	color:$accent;
+	transition-property: border-color;
+    transition-duration: .25s;
+    transition-timing-function: ease-out;
+	border-bottom:1px solid rgba(49, 119, 102, 0.2);
+	&:hover{
+		border-color:rgba(49, 119, 102, 0.5);
+		transition:none;
+	}
+}
+button{
+	background:none;
+    border:none;
+    margin:0;
+}
+
+
+/***************************************************
+MAIN TYPOGRAPHY
+***************************************************/
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	color:$text-clr;
+}
+p{
+	font-size:$fs-base;
+	line-height:1.5;
+	margin-bottom:18px;
+}
+
+strong{
+	color:$accent;
+}
+
+.strike{
+	text-decoration: line-through;
+}

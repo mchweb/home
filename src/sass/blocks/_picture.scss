@@ -1,0 +1,34 @@
+.picture{
+	width:33%;
+	display:inline-block;
+	vertical-align:middle;
+	padding-right:48px;
+	@media (max-width: $scr-lg) {
+		vertical-align:top;
+	}
+	@media (max-width: $scr-md) {
+		width:35%;
+		padding-right:32px;
+	}
+	@media (max-width: $scr-sm) {
+		display:block;
+		padding-right:0;
+		padding-bottom:32px;
+		width:100%;
+	}
+	@media (max-width: $scr-xs) {
+		padding-bottom:16px;
+	}
+
+}
+.picture__source{
+	width:100%;
+	height:auto;
+	margin-bottom:8px;
+	@media (max-width: $scr-sm) {
+		max-width:320px;
+	}
+	@media (max-width: $scr-xs) {
+		max-width:272px;
+	}
+} 

@@ -1,0 +1,30 @@
+.l-wrapper{
+	width:100vw;
+	height:100vh;
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.l-content{
+	max-width:$cnt;
+	margin:0 auto;
+	padding:36px;
+	animation-duration: 0.5s;
+	animation-timing-function:ease-in-out;
+	animation-fill-mode: both;
+	animation-name:fadeIn;
+	animation-delay:0.5s;
+	margin-bottom:56px;
+	@media (max-width: $scr-sm) {
+		padding:24px;
+	}
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

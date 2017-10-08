@@ -1,0 +1,26 @@
+.about{
+	display:inline-block;
+	vertical-align:middle;
+	width:67%;
+	@media (max-width: $scr-md) {
+		width:65%;
+	}
+	@media (max-width: $scr-sm) {
+		display:block;
+		width:100%;
+		max-width:620px;
+	}
+}
+.about__title{
+	font-size:48px;
+	margin-bottom:24px;
+	font-weight:bold;
+	color:#111;
+	
+	@media (max-width: $scr-lg) {
+		font-size:36px;
+	}
+	@media (max-width: $scr-xs) {
+		font-size:24px;
+	}
+}

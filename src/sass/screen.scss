@@ -1,0 +1,15 @@
+@import "var";
+
+@import "lib/normalize";
+@import "lib/reset";
+
+// main styles
+@import "common";
+
+// blocks
+@import "blocks/layout";
+@import "blocks/picture";
+@import "blocks/about";
+
+// !important
+@import "overrides";
