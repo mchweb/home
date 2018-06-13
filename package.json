@@ -1,6 +1,6 @@
 {
   "name": "mchugaev.ru",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "devDependencies": {
     "autoprefixer": "^6.3.7",
     "cssnano": "^3.7.3",
@@ -10,7 +10,7 @@
     "grunt-contrib-imagemin": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-postcss": "^0.8.0",
-    "grunt-sass": "^1.1.0",
+    "grunt-sass": "^2.1.0",
     "postcss-focus": "^1.0.0"
   },
   "main": "Gruntfile.js",

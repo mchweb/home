@@ -17,16 +17,17 @@ module.exports = function(grunt) {
                     expand: true,
                     cwd: 'src/assets/img/',
                     src: ['**/*.{png,jpg,gif}'],
-                    dest: 'build/assets/img/'
+                    dest: 'docs/assets/img/'
                 }]
             }
         },
         copy: {
             main: {
                 files: [
-                    {expand: true, cwd: 'src', src: ['favicon.ico'], dest: 'build/'},
-					{expand: true, cwd: 'src', src: ['assets/img/*.svg'], dest: 'build/'},
-                    {expand: true, cwd: 'src', src: ['assets/css/*.css'], dest: 'build/'}
+                    {expand: true, cwd: 'src', src: ['favicon.ico'], dest: 'docs/'},
+					{expand: true, cwd: 'src', src: ['assets/img/*.svg'], dest: 'docs/'},
+                    {expand: true, cwd: 'src', src: ['assets/css/*.css'], dest: 'docs/'},
+                    {expand: true, cwd: 'src', src: ['mchugaev_cv.pdf'], dest: 'docs/'}
                 ],
             },
         },
@@ -57,7 +58,7 @@ module.exports = function(grunt) {
               minifyJS: true
             },
             files: {
-              'build/index.html': 'src/index.html'
+              'docs/index.html': 'src/index.html'
             }
           }
         }
