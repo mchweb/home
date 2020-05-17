@@ -4,7 +4,7 @@
   "devDependencies": {
     "autoprefixer": "^6.3.7",
     "cssnano": "^3.7.3",
-    "grunt": "~0.4.5",
+    "grunt": "^0.4.5",
     "grunt-contrib-copy": "^0.8.2",
     "grunt-contrib-htmlmin": "^2.4.0",
     "grunt-contrib-imagemin": "^1.0.0",
@@ -15,6 +15,8 @@
   },
   "main": "Gruntfile.js",
   "scripts": {
+    "build": "grunt",
+    "html": "grunt html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Michael Chugaev",

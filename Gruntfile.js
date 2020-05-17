@@ -73,5 +73,6 @@ module.exports = function(grunt) {
 
 
     grunt.registerTask('default', ['sass', 'postcss', 'imagemin', 'htmlmin', 'copy']);
+    grunt.registerTask('html', ['htmlmin', 'copy']);
 
 };
